@@ -7,6 +7,13 @@
     "wdth" 100;
 }
 
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 
 
 
@@ -37,5 +44,34 @@ main{
     color: white;
     font-size: 72px;
     text-align: center;
+    margin-top: 0;
+}
+
+/* offer section  */
+.offer{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.offer-title{
+    text-align: center;
+    font-size: 88px;
+    color: red;
+    font-weight: 800px;
+    margin-bottom: 48px;
+}
+.offer-description{
+    text-align: center;
+    font-size: 24px;
+    color: red;
+    font-weight: 200px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.offer-subtitle{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700px;
     margin-top: 0;
 }
