@@ -116,3 +116,32 @@ main{
     font-size: 20px;
     font-weight: 700px;
 }
+
+/* Hotel place  */
+.hotel-place{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600px;
+    gap: 30px;
+    border-radius: 16px;
+    background: linear-gradient(180deg,rgba(255, 0, 0, .1),rgba(255, 0, 0, 0));
+    margin-bottom: 120px;
+}
+.place-color{
+    color: red;
+}
+
+.btn-container> .btn{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+}
